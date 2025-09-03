@@ -88,12 +88,13 @@ def cli(pdf: str, output: str, openai_key: str, skip: int) -> None:
                                 '   - Use `$$...$$` for display (multi-line or centered) math.\n\n'
                                 '2. **Non-mathematical content:**\n'
                                 '   - Preserve it in standard Markdown formatting (headings, lists, bold, italics, links, etc.).\n'
-                                '   - Do not enclose plain text in math delimiters.\n\n'
+                                '   - Do not enclose plain text in math delimiters.\n'
+                                '   - Do not use quotes (`>`).\n'
+                                '   - Do not use HTML, but only markdown.\n\n'
                                 '3. **General:**\n'
                                 '   - Maintain the original structure and layout as closely as possible.\n'
                                 '   - Ensure proper spacing between text and math expressions.\n'
                                 '   - Do not include any extra commentary—output only the converted Markdown.'
-                                '   - Do not use quotes (`>`).'
                             ),
                         },
                         {'type': 'input_image', 'image_url': f'data:image/png;base64,{img_base64}'},

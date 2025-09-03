@@ -23,6 +23,7 @@
   <p align="center">
     Convert your PDF documents to Markdown notes with KaTeX support with the help of OpenAI.
     <br />
+    🚨 Note that your data will be shared with OpenAI. 🚨
     <br />
     <a href="https://github.com/xcalts/pdf2joplin/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
