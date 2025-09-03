@@ -1,3 +1,9 @@
 03-September-2025  Christos Kaltsas  <christos@xcalts.co>
 
+	* Fixed the calculation of the OpenAI costs.
+	* Removed some debug messages.
+	* Released 1.0.1 
+
+03-September-2025  Christos Kaltsas  <christos@xcalts.co>
+
 	* Released 1.0.0: Initial version 

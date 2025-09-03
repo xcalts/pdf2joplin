@@ -56,7 +56,6 @@ def cli(pdf: str, output: str, openai_key: str, skip: int) -> None:
         for i, img in enumerate(
             tqdm.tqdm(
                 iterable=images[skip:],
-                desc='Converting images',
                 bar_format='{l_bar}{bar:10}{r_bar}{bar:-10b}',
             ),
             start=1,
@@ -71,7 +70,7 @@ def cli(pdf: str, output: str, openai_key: str, skip: int) -> None:
     print('[-] Ask OpenAI to convert them to MD with KaTeX & append them to output file.')
     openai_client = openai.OpenAI(api_key=openai_key)
     openai_responses = []
-    for img in tqdm.tqdm(imagepaths, desc='Requesting OpenAI', bar_format='{l_bar}{bar:10}{r_bar}{bar:-10b}'):
+    for img in tqdm.tqdm(imagepaths, bar_format='{l_bar}{bar:10}{r_bar}{bar:-10b}'):
         img_base64 = utils.img_to_base64(img)
         response = openai_client.responses.create(
             model='gpt-5-nano',
@@ -109,7 +108,7 @@ def cli(pdf: str, output: str, openai_key: str, skip: int) -> None:
 
     print(f"[-] Successfully converted '{pdf}' to '{output}'.")
 
-    print(f'[-] The final cost was {utils.calculate_openai_costs(openai_responses)}$')
+    print(f'[-] The conversion cost was {utils.calculate_openai_costs(openai_responses)}$')
 
     print(f"[-] Clear the '{constants.CACHE_FOLDER}' folder.")
     utils.clear_folder(constants.CACHE_FOLDER)

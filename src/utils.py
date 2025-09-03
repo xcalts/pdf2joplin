@@ -22,7 +22,6 @@ def create_folder(folderpath: str) -> None:
 
 def clear_folder(folderpath: str) -> None:
     for filename in os.listdir(folderpath):
-        print(filename)
         os.remove(os.path.join(folderpath, filename))
 
 
@@ -46,11 +45,7 @@ def calculate_openai_costs(responses: list) -> float:
     total_cost = 0.0
 
     for resp in responses:
-        model = getattr(resp, 'model', None)
-        if model not in constants.MODEL_RATES:
-            raise ValueError(f'Unknown model {model}, add it to MODEL_RATES')
-
-        rates = constants.MODEL_RATES[model]
+        rates = constants.MODEL_RATE
         usage = getattr(resp, 'usage', None)
 
         if not usage:
