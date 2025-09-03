@@ -117,7 +117,7 @@ You can also simply open an issue with the tag "enhancement".
 [contributors-shield]: https://img.shields.io/github/contributors/xcalts/pdf2md.svg?style=flat
 [contributors-url]: https://github.com/xcalts/pdf2md/graphs/contributors
 [lint-shield]: https://img.shields.io/github/actions/workflow/status/xcalts/pdf2md/ruff.yml?style=flat&label=ruff-lint
-[lint-url]: https://github.com/xcalts/pdf2md/actions/workflows/ruff.yml
+[lint-url]: https://github.com/xcalts/pdf2md/actions/workflows/lint.yml
 [stars-shield]: https://img.shields.io/github/stars/xcalts/pdf2md.svg?style=flat
 [stars-url]: https://github.com/xcalts/pdf2md/stargazers
 [issues-shield]: https://img.shields.io/github/issues/xcalts/pdf2md.svg?style=flat
