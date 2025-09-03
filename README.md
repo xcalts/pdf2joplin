@@ -23,8 +23,6 @@
     <a href="https://pypi.org/project/pdf2md/">PyPI</a>
   </p>
 
-<img src="https://github.com/xcalts/pdf2md/raw/main/.github/usage.png" />
-
 </div>
 
 ## Features
