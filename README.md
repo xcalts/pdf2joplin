@@ -16,11 +16,11 @@
     Convert your PDF documents to Markdown notes with KaTeX support with the help of OpenAI.
     <br />
     <br />
-    <a href="https://github.com/xcalts/pdf2md/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/xcalts/pdf2joplin/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/xcalts/pdf2md/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/xcalts/pdf2joplin/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
     ·
-    <a href="https://pypi.org/project/pdf2md/">PyPI</a>
+    <a href="https://pypi.org/project/pdf2joplin/">PyPI</a>
   </p>
 
 </div>
@@ -33,10 +33,10 @@
 
 ## Installation
 
-You can install `pdf2md` using `pip`.
+You can install `pdf2joplin` using `pip`.
 
 ```
-pip install pdf2md
+pip install pdf2joplin
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -52,9 +52,9 @@ brew install poppler
 After installing it, you can run it like this:
 
 ```txt
-> pdf2md --help
+> pdf2joplin --help
 
-Usage: pdf2md [OPTIONS]
+Usage: pdf2joplin [OPTIONS]
 
   Convert your PDF documents to Markdown notes with KaTeX support with the help of OpenAI.
 
@@ -80,7 +80,7 @@ In order to start developing you will need to to follow the instructions below.
 > source .venv/bin/activate
 > (.venv) pip install ruff pre-commit
 > (.venv) pip install -e .
-> (.venv) pdf2md --version
+> (.venv) pdf2joplin --version
 > (.venv) ruff check --fix
 ```
 
@@ -114,16 +114,16 @@ You can also simply open an issue with the tag "enhancement".
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/xcalts/pdf2md.svg?style=flat
-[contributors-url]: https://github.com/xcalts/pdf2md/graphs/contributors
-[lint-shield]: https://img.shields.io/github/actions/workflow/status/xcalts/pdf2md/ruff.yml?style=flat&label=ruff-lint
-[lint-url]: https://github.com/xcalts/pdf2md/actions/workflows/lint.yml
-[stars-shield]: https://img.shields.io/github/stars/xcalts/pdf2md.svg?style=flat
-[stars-url]: https://github.com/xcalts/pdf2md/stargazers
-[issues-shield]: https://img.shields.io/github/issues/xcalts/pdf2md.svg?style=flat
-[issues-url]: https://github.com/xcalts/pdf2md/issues
-[license-shield]: https://img.shields.io/github/license/xcalts/pdf2md.svg?style=flat
-[license-url]: https://github.com/xcalts/pdf2md/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/xcalts/pdf2joplin.svg?style=flat
+[contributors-url]: https://github.com/xcalts/pdf2joplin/graphs/contributors
+[lint-shield]: https://img.shields.io/github/actions/workflow/status/xcalts/pdf2joplin/ruff.yml?style=flat&label=ruff-lint
+[lint-url]: https://github.com/xcalts/pdf2joplin/actions/workflows/lint.yml
+[stars-shield]: https://img.shields.io/github/stars/xcalts/pdf2joplin.svg?style=flat
+[stars-url]: https://github.com/xcalts/pdf2joplin/stargazers
+[issues-shield]: https://img.shields.io/github/issues/xcalts/pdf2joplin.svg?style=flat
+[issues-url]: https://github.com/xcalts/pdf2joplin/issues
+[license-shield]: https://img.shields.io/github/license/xcalts/pdf2joplin.svg?style=flat
+[license-url]: https://github.com/xcalts/pdf2joplin/blob/master/LICENSE
 [python-shield]: https://img.shields.io/badge/Python-black?logo=python
 [python-url]: https://www.python.org/
 [linux-shield]: https://img.shields.io/badge/Linux-black?logo=linux

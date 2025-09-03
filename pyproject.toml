@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 # --- Project Settings ---
 [project]
-name = "pdf2md"
+name = "pdf2joplin"
 version = "1.0.0"
 description = "Convert your PDF documents to Markdown notes with KaTeX support with the help of OpenAI."
 readme = "README.md"
@@ -27,15 +27,15 @@ dependencies = [
 
 # --- URLs ---
 [project.urls]
-"Homepage" = "https://github.com/xcalts/pdf2md"
-"Source" = "https://github.com/xcalts/pdf2md"
-"Documentation" = "https://github.com/xcalts/pdf2md"
-"Bug Reports" = "https://github.com/xcalts/pdf2md/issues"
-"Changelog" = "https://github.com/xcalts/pdf2md/releases"
+"Homepage" = "https://github.com/xcalts/pdf2joplin"
+"Source" = "https://github.com/xcalts/pdf2joplin"
+"Documentation" = "https://github.com/xcalts/pdf2joplin"
+"Bug Reports" = "https://github.com/xcalts/pdf2joplin/issues"
+"Changelog" = "https://github.com/xcalts/pdf2joplin/releases"
 
 # --- Scripts ---
 [project.scripts]
-pdf2md = "main:cli"
+pdf2joplin = "main:cli"
 
 # --- Lint ---
 [tool.ruff]
