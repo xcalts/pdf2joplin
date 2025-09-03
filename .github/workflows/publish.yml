@@ -3,7 +3,6 @@ name: Publish python package to PyPI
 on:
   push:
     tags:
-      - "*"
 
 permissions:
   contents: read
