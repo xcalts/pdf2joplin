@@ -12,9 +12,13 @@
 [![Lint][lint-shield]][lint-url]
 [![Issues][issues-shield]][issues-url]
 
+  <br />
+  <br />
   <a href="https://github.com/xcalts/pdf2joplin">
     <img src="https://github.com/xcalts/pdf2joplin/raw/main/.github/logo.png" alt="Logo" height="100" />
   </a>
+  <br />
+  <br />
 
   <p align="center">
     Convert your PDF documents to Markdown notes with KaTeX support with the help of OpenAI.
